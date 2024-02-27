@@ -1,0 +1,60 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.terminal {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  padding: 10px;
+  overflow-y: scroll;
+  font-size: 20px;
+}
+
+.help {
+  color: aqua;
+}
+
+.input-line {
+  display: flex;
+}
+
+.input-line span {
+  color: green;
+  margin-right: 5px;
+}
+
+input {
+  font-family: monospace;
+  width: 100%;
+  outline: none;
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-stretch: expanded;
+}
+
+.gitCommitCode{
+  color: yellow;
+}
+
+.gitCommitMssg{
+  color: forestgreen
+}
+
+.outputText{
+  color:brown;
+}
+.textError{
+  color: #d77f7f;
+}
+.errorCommand{
+  color: #b7e292;
+}
